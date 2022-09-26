@@ -23,5 +23,5 @@ jobs:
       - name: Setup repo
         uses: actions/checkout@v3
         
-      - name: Run file
-        run: lynx /home/ubuntu/aws-site-apache-git-action/_work/aws-site-apache-git-action/aws-site-apache-git-action/index.html
+      - name: check file
+        run: cat /home/ubuntu/aws-site-apache-git-action/_work/aws-site-apache-git-action/aws-site-apache-git-action/index.html
